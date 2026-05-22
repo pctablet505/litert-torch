@@ -1,3 +1,19 @@
+## About This Fork
+
+This is a personal fork of [google-ai-edge/litert-torch](https://github.com/google-ai-edge/litert-torch) maintained for upstream contributions. All development work targets merging back into the original repository.
+
+### Open Pull Requests
+
+- Preserve dict keys in flat_arg_names for positional args ([#1023](https://github.com/google-ai-edge/litert-torch/pull/1023))
+- Fail fast on dynamic_shapes and guard arange rewrite for symbolic args ([#1024](https://github.com/google-ai-edge/litert-torch/pull/1024))
+
+### Issues Filed
+
+- Dict input keys flattened to generic args_0/args_1 ([#1022](https://github.com/google-ai-edge/litert-torch/issues/1022))
+- Segfault when importing litert-torch alongside TensorFlow ([#978](https://github.com/google-ai-edge/litert-torch/issues/978))
+
+---
+
 # LiteRT Torch
 
 LiteRT Torch is a python library that supports converting PyTorch models into a
